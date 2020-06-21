@@ -64,7 +64,6 @@ const Container = styled.div`
     
   }
   color: white;
-  font-family: 'Poppins', sans-serif;
   font-size: 30px;
   padding: 5rem;
   @media (max-width: 1000px) {
