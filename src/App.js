@@ -3,11 +3,11 @@ import "./App.css";
 import Home from "./views/Home";
 import Tips from "./views/Tips";
 import Nav from "./components/Nav";
-import { BrowserRouter, Switch, Redirect, Route } from "react-router-dom";
+import { HashRouter, Switch, Redirect, Route } from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Nav />
 
       <Switch>
@@ -19,7 +19,7 @@ function App() {
         </Route>
         <Route path="/tips" component={Tips} />
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
