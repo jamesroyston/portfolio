@@ -3,8 +3,6 @@ import profile from "./profile.jpg";
 import styled from "styled-components";
 
 const Container = styled.div`
-  width: 100vw;
-  height: 100vh;
   font-size: 18px;
 `;
 
@@ -49,13 +47,16 @@ export default function Home() {
         <hr />
 
         <p>Blog posts:</p>
-        <ul>
-          <li>
-            <a href="https://dev.to/jamesroyston/how-to-deploy-your-express-mongodb-api-react-frontend-to-heroku-4p8m">
-              How to deploy your express-mongoDB API + React frontend to Heroku
-            </a>
-          </li>
-        </ul>
+        <small>
+          <ul>
+            <li>
+              <a href="https://dev.to/jamesroyston/how-to-deploy-your-express-mongodb-api-react-frontend-to-heroku-4p8m">
+                How to deploy your express-mongoDB API + React frontend to
+                Heroku
+              </a>
+            </li>
+          </ul>
+        </small>
 
         <p>
           <small>Follow me: </small>
