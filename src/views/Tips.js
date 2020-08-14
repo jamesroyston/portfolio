@@ -8,6 +8,9 @@ const Container = styled.div`
 const Body = styled.div`
   margin: 0 auto;
   width: 35rem;
+  @media (max-width: 700px) {
+    width: 90%;
+  }
 `;
 
 const Tips = () => {
