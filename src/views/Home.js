@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "./profile.jpg";
+import profile from "./profile.JPG";
 import styled from "styled-components";
 
 const Container = styled.div`
@@ -16,21 +16,33 @@ const Body = styled.div`
   }
 `;
 
+const GreetingSection = styled.div`
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  h1 {
+    margin-bottom: 0;
+  }
+`;
+
 const Img = styled.img`
   width: 15rem;
+  border-radius: 50%;
 `;
 
 export default function Home() {
   return (
     <Container>
       <Body>
-        <Img src={profile} alt="me" />
-        <h1>
-          I'm James Royston{" "}
-          <span role="img" aria-label="waving emoji">
-            👋
-          </span>
-        </h1>
+        <GreetingSection>
+          <Img src={profile} alt="me" />
+          <h1>
+            James Royston{" "}
+            <span role="img" aria-label="waving emoji">
+              👋
+            </span>
+          </h1>
+        </GreetingSection>
 
         <p>
           I'm a software engineer in the midwest, working on React.js
@@ -58,9 +70,7 @@ export default function Home() {
           </ul>
         </small>
 
-        <p>
-          <small>Follow me: </small>
-        </p>
+        <p>Follow me:</p>
         <small>
           <ul>
             <li>

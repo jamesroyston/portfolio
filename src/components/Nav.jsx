@@ -4,8 +4,11 @@ import { Link } from "react-router-dom";
 
 const NavContainer = styled.nav`
   display: flex;
-  padding: 2em 2em 0 2em;
+  padding: 1em 1em 0 1em;
   width: 100%;
+  @media (max-width: 700px) {
+    width: 90%;
+  }
 `;
 
 const StyledLink = styled(Link)`
