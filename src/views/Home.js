@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "./profile.JPG";
+import profile from "./profile.jpg";
 import styled from "styled-components";
 
 const Container = styled.div`
@@ -37,10 +37,7 @@ export default function Home() {
         <GreetingSection>
           <Img src={profile} alt="me" />
           <h1>
-            James Royston{" "}
-            <span role="img" aria-label="waving emoji">
-              👋
-            </span>
+            👉🏼 James Royston 👈🏼
           </h1>
         </GreetingSection>
 
@@ -48,7 +45,7 @@ export default function Home() {
           I'm a software engineer in the midwest, working on React.js
           applications at{" "}
           <span>
-            <a href="https://anautics.com/">Anautics</a>.{" "}
+            <a href="https://steezy.co/">STEEZY</a> (😍).{" "}
           </span>
           My favorite technologies right now are{" "}
           <a href="https://reactjs.org/">React.js</a>,{" "}
