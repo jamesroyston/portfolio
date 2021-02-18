@@ -17,13 +17,10 @@ const Tips = () => {
   return (
     <Container>
       <Body>
-        <h2>Hey Dumba**.</h2>
+        <h2>Hey! You!</h2>
         <p>
           Read these articles before talking to anybody in hiring. As a matter
-          of fact, just read these once a year to keep them fresh in your mind.
-          You'll regret it if you don't (remember that time when you read these
-          after you'd already signed an offer? Yeah, that pint of ben and
-          jerry's does too...).
+          of fact, just read these once a year to keep them fresh in your mind. Thank me later.
         </p>
         <ul>
           <li>

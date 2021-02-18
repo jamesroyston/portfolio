@@ -37,7 +37,7 @@ export default function Home() {
         <GreetingSection>
           <Img src={profile} alt="me" />
           <h1>
-            👉🏼 James Royston 👈🏼
+            James Royston
           </h1>
         </GreetingSection>
 
