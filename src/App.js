@@ -17,7 +17,7 @@ function App() {
         <Route path="/home">
           <Home />
         </Route>
-        <Route path="/tips" component={Tips} />
+        <Route path="/self" component={Tips} />
       </Switch>
     </HashRouter>
   );

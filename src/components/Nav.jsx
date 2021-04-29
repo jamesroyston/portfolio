@@ -19,7 +19,6 @@ const Nav = () => {
   return (
     <NavContainer>
       <StyledLink to="/home">/home</StyledLink>
-      <StyledLink to="/tips">/tips</StyledLink>
     </NavContainer>
   );
 };
